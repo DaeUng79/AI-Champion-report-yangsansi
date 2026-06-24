@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "부처 RSS 알리미",
+  "description": "부처명을 선택해 RSS 기사 제목/내용을 보고 새 글 등록 시 알림을 받는 크롬 확장 프로그램",
+  "version": "1.0.0",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.mois.go.kr/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "부처 RSS 알리미",
+    "default_icon": "rss.svg"
+  },
+  "icons": {
+    "16": "rss.svg",
+    "32": "rss.svg",
+    "48": "rss.svg",
+    "128": "rss.svg"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

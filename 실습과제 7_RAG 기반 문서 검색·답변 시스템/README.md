@@ -2,6 +2,10 @@
 
 2024년 정부합동감사 공개 데이터를 기반으로, Naive RAG와 Advanced RAG 검색 결과를 나란히 비교하는 Streamlit 애플리케이션입니다. 사용자가 질문을 입력하면 두 데이터셋에서 관련 문서를 검색하고, OpenRouter API를 통해 각각의 답변과 비교 요약을 생성합니다.
 
+## 데모
+
+![Naive vs Advanced RAG 비교 데모](RAG.gif)
+
 ## 주요 기능
 
 - Advanced RAG와 Naive RAG 검색 결과를 좌우 패널로 비교
@@ -16,6 +20,7 @@
 .
 ├── streamlit_rag_compare.py      # RAG 비교 Streamlit 앱
 ├── requirements.txt              # 앱 실행에 필요한 Python 패키지
+├── RAG.gif                       # 앱 동작 데모 GIF
 ├── Advanced_RAG.json             # Advanced RAG 데이터 샘플/결과 파일
 ├── Naive_RAG.json                # Naive RAG 데이터 샘플/결과 파일
 ├── 24년 충북(공개본).pdf          # 원천 감사 PDF

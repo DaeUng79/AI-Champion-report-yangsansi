@@ -1,0 +1,4 @@
+openai-agents==0.18.2
+python-dotenv>=1,<2
+streamlit>=1.39,<2
+tavily-python>=0.5,<1

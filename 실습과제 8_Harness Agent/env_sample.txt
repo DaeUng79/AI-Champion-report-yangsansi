@@ -1,2 +1,8 @@
-OPENAI_API_KEY=sk-proj-IsGCevB62iOnge.......
-TAVILY_API_KEY=tvly-mGxBGv......
+# OpenAI API key (required)
+OPENAI_API_KEY=sk-your-openai-api-key
+
+# Tavily API key for web search (recommended)
+TAVILY_API_KEY=tvly-your-tavily-api-key
+
+# OpenAI model name (optional)
+OPENAI_MODEL=gpt-4o
